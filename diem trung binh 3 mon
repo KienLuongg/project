@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+	int diem_hoa;
+	int diem_toan;
+	int diem_vat_ly;
+	int diem_tong_3_mon;
+	int diem_trung_binh;
+	
+	printf("diem_hoa\n");
+	scanf("%d", &diem_hoa);
+	
+	printf("diem_toan\n");
+	scanf("%d", &diem_toan);
+	
+	printf("diem thi vat ly\n");
+	scanf("%d", &diem_vat_ly);
+	
+	diem_tong_3_mon = diem_hoa + diem_toan + diem_vat_ly;
+	
+	printf("diem_tong_3_mon is %d\n");
+	
+	diem_trung_binh = ( diem_hoa + diem_toan + diem_vat_ly ) / 3;
+	
+	printf("diem_trung_binh is %d\n");
+	
+	
+	
+	return 0;
+}
